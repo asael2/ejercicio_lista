@@ -7,8 +7,8 @@
 <ion-content>
  <h2 padding>Mi lista de elementos</h2>
   <ion-list>
-    <button ion-item *ngFor="let ele of elementos" (click)="elSeleccionado(ele)">
-     {{ ele.nombre }}
+    <button ion-item *ngFor="let elem of elementos" (click)="elSeleccionado(elem)">
+     {{ elem.nombre }}
     </button>  
   </ion-list> 
 
